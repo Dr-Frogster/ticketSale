@@ -100,3 +100,38 @@ contract ticketSale {
     }
     
 }
+
+
+/*
+  '0x74275c8f57112beE7bD519e7Ce2e67D01eA03121',
+  '0x0227F3a2f0259e82573e1Bc4b8FD7a0837B5c74c',
+  '0xffEe8c6C61487907AFFCe10497aE561b04426d9A',
+  '0xea278E7BEf6818F035D6E7C2f1a80A2b6c6f37F1',
+  '0x2a35313feeA31bFf91062FE7EbfA65D28542Fc96',
+  '0x4EfDb9049EB9FD7D1652fC1352111a991E75319F',
+  '0x247A02CeC5373C68dE916824EC59Eb368b6197E3',
+  '0x908B9fdAA2343E1Fe5d160933a109CA3F039f368',
+  '0x7720F9CFdEA695FF470c4215B2420066a133F190',
+  '0x749EaB580DBb79dFA98C59bbf79f5F295AC7518E'
+]
+    ✔ deploys (89ms)
+    ✔ allows users to buy tickets (335ms)
+    ✔ can see what ticket an address owns (403ms)
+    ✔ allows swapping of tickets (1727ms)
+    ✔ allows the owner to return tickets (654ms)
+
+
+  5 passing (6s)
+  */
+
+  /*
+  Deploy.js error
+
+  Error: Invalid number of parameters for "undefined". Got 1 expected 2!
+    at Object.InvalidNumberOfParams (C:\Workspace\CSC494\Assignment 3\node_modules\web3-core-helpers\lib\errors.js:33:16)
+    at Object._createTxObject (C:\Workspace\CSC494\Assignment 3\node_modules\web3-eth-contract\lib\index.js:712:22)
+    at Contract.deploy (C:\Workspace\CSC494\Assignment 3\node_modules\web3-eth-contract\lib\index.js:526:33)
+    at deploy (C:\Workspace\CSC494\Assignment 3\deploy.js:27:6)
+
+Node.js v18.18.0
+*/
